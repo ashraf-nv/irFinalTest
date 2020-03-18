@@ -1,0 +1,6 @@
+use_frameworks!
+target 'irFinalTest_Tests' do
+  pod 'irFinalTest', :path => '../'
+  
+  
+end
