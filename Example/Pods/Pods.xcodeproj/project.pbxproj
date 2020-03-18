@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24A46BE6471C77A5B717C39E4BC09783 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A439589C5F1A7A61D0ABDEFCD309AC /* ReplaceMe.m */; };
+		25A132D724223DB600E541AB /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132C724223DB600E541AB /* sms.png */; };
+		25A132D824223DB600E541AB /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132C824223DB600E541AB /* mail.png */; };
+		25A132D924223DB600E541AB /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132C924223DB600E541AB /* share@2x.png */; };
+		25A132DA24223DB600E541AB /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CA24223DB600E541AB /* fb.png */; };
+		25A132DB24223DB600E541AB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CB24223DB600E541AB /* .gitkeep */; };
+		25A132DC24223DB600E541AB /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CC24223DB600E541AB /* share@3x.png */; };
+		25A132DD24223DB600E541AB /* whatsappactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CD24223DB600E541AB /* whatsappactivity@3x.png */; };
+		25A132DE24223DB600E541AB /* whatsappactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CE24223DB600E541AB /* whatsappactivity@2x.png */; };
+		25A132DF24223DB600E541AB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132CF24223DB600E541AB /* share.png */; };
+		25A132E024223DB600E541AB /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132D024223DB600E541AB /* whatsappactivity.png */; };
+		25A132E124223DB600E541AB /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A132D124223DB600E541AB /* WhatsApp.png */; };
+		25A132E224223DB600E541AB /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25A132D324223DB600E541AB /* IR_UserResources.plist */; };
+		25A132E324223DB600E541AB /* libInvitereferrals_4_3_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A132D424223DB600E541AB /* libInvitereferrals_4_3_2.a */; };
+		25A132E424223DB600E541AB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 25A132D524223DB600E541AB /* .gitkeep */; };
+		25A132E524223DB600E541AB /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A132D624223DB600E541AB /* InviteReferrals.h */; };
 		4843D088E3548BBF73A8E4818871D4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		54DF16901A40C0D1F036CA79EABCB4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		597BA9D176553CA958CE9157F12A07C9 /* Pods-irFinalTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1783E2D11FA1153932D8B869C33C87FE /* Pods-irFinalTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,25 +45,39 @@
 		1783E2D11FA1153932D8B869C33C87FE /* Pods-irFinalTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-irFinalTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1AC5530841FACC46E87FF66CA60B26DB /* irFinalTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "irFinalTest-prefix.pch"; sourceTree = "<group>"; };
 		25763C70C76EF93CF9ED577B7A858B02 /* Pods-irFinalTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-irFinalTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		28387877B571B6035DA847A4A0230FB7 /* irFinalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = irFinalTest.framework; path = irFinalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A132C724223DB600E541AB /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		25A132C824223DB600E541AB /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		25A132C924223DB600E541AB /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		25A132CA24223DB600E541AB /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		25A132CB24223DB600E541AB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		25A132CC24223DB600E541AB /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
+		25A132CD24223DB600E541AB /* whatsappactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@3x.png"; sourceTree = "<group>"; };
+		25A132CE24223DB600E541AB /* whatsappactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@2x.png"; sourceTree = "<group>"; };
+		25A132CF24223DB600E541AB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		25A132D024223DB600E541AB /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
+		25A132D124223DB600E541AB /* WhatsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsApp.png; sourceTree = "<group>"; };
+		25A132D324223DB600E541AB /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		25A132D424223DB600E541AB /* libInvitereferrals_4_3_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_3_2.a; sourceTree = "<group>"; };
+		25A132D524223DB600E541AB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		25A132D624223DB600E541AB /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
+		28387877B571B6035DA847A4A0230FB7 /* irFinalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = irFinalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41DEB2964CFD70D2AF844D55983DA2C9 /* irFinalTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "irFinalTest-dummy.m"; sourceTree = "<group>"; };
-		5A8CB7F3BCCF0555D1885E25005BBE2B /* irFinalTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = irFinalTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A8CB7F3BCCF0555D1885E25005BBE2B /* irFinalTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = irFinalTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5CDB822E995849BF10A0A15953AEEEE2 /* Pods-irFinalTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-irFinalTest_Tests-Info.plist"; sourceTree = "<group>"; };
 		659C639BA6F0D5CFC88B707B6C952BCC /* irFinalTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "irFinalTest-Info.plist"; sourceTree = "<group>"; };
 		68F99B902D5F78A39317B0472C926813 /* Pods-irFinalTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-irFinalTest_Tests.modulemap"; sourceTree = "<group>"; };
 		8D533BCEB3E2DE72CB22AE8548CEF093 /* Pods-irFinalTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-irFinalTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1929EE6866A31CD785F42088F3F0067 /* Pods_irFinalTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_irFinalTest_Tests.framework; path = "Pods-irFinalTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1929EE6866A31CD785F42088F3F0067 /* Pods_irFinalTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_irFinalTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CFC23BF0BB226A2B43FE31CF18EEFF /* irFinalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = irFinalTest.debug.xcconfig; sourceTree = "<group>"; };
 		C250A43752700B2B1D2FF29982B2D954 /* irFinalTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = irFinalTest.modulemap; sourceTree = "<group>"; };
-		D0911D0F255677E8C02A2586A7E3052A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D0911D0F255677E8C02A2586A7E3052A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D109AAB79260019EC963FC186CED48F5 /* Pods-irFinalTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-irFinalTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D17C85ECB7AA62992E9B147D77F403F8 /* irFinalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = irFinalTest.release.xcconfig; sourceTree = "<group>"; };
 		D49A56BF6355459A1EEA5D6B6B97E2F5 /* irFinalTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "irFinalTest-umbrella.h"; sourceTree = "<group>"; };
-		D7A439589C5F1A7A61D0ABDEFCD309AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = irFinalTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DA832D1B23D009BF8EB2157E330A8C21 /* Pods-irFinalTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-irFinalTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAC21F93F580C020BF656126C812EE92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DAC21F93F580C020BF656126C812EE92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF1395B1B3ED65853CCA90BBD200EB27 /* Pods-irFinalTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-irFinalTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DF16901A40C0D1F036CA79EABCB4A7 /* Foundation.framework in Frameworks */,
+				25A132E324223DB600E541AB /* libInvitereferrals_4_3_2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +121,44 @@
 		1CEC02A204DBD992256C3FFEB5CA32A1 /* irFinalTest */ = {
 			isa = PBXGroup;
 			children = (
-				D7A439589C5F1A7A61D0ABDEFCD309AC /* ReplaceMe.m */,
+				25A132C624223DB600E541AB /* Assets */,
+				25A132D224223DB600E541AB /* Classes */,
 				2E047323EA9E30FC871F996F597D0F96 /* Pod */,
 				B495730A5251A85124084B8DEED03EB5 /* Support Files */,
 			);
 			name = irFinalTest;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		25A132C624223DB600E541AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				25A132C724223DB600E541AB /* sms.png */,
+				25A132C824223DB600E541AB /* mail.png */,
+				25A132C924223DB600E541AB /* share@2x.png */,
+				25A132CA24223DB600E541AB /* fb.png */,
+				25A132CB24223DB600E541AB /* .gitkeep */,
+				25A132CC24223DB600E541AB /* share@3x.png */,
+				25A132CD24223DB600E541AB /* whatsappactivity@3x.png */,
+				25A132CE24223DB600E541AB /* whatsappactivity@2x.png */,
+				25A132CF24223DB600E541AB /* share.png */,
+				25A132D024223DB600E541AB /* whatsappactivity.png */,
+				25A132D124223DB600E541AB /* WhatsApp.png */,
+			);
+			name = Assets;
+			path = irFinalTest/Assets;
+			sourceTree = "<group>";
+		};
+		25A132D224223DB600E541AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25A132D324223DB600E541AB /* IR_UserResources.plist */,
+				25A132D424223DB600E541AB /* libInvitereferrals_4_3_2.a */,
+				25A132D524223DB600E541AB /* .gitkeep */,
+				25A132D624223DB600E541AB /* InviteReferrals.h */,
+			);
+			name = Classes;
+			path = irFinalTest/Classes;
 			sourceTree = "<group>";
 		};
 		2E047323EA9E30FC871F996F597D0F96 /* Pod */ = {
@@ -193,6 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A132E524223DB600E541AB /* InviteReferrals.h in Headers */,
 				FCB6C2B1ADE5FAF5249163BA459FF985 /* irFinalTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +339,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A132DD24223DB600E541AB /* whatsappactivity@3x.png in Resources */,
+				25A132DF24223DB600E541AB /* share.png in Resources */,
+				25A132DE24223DB600E541AB /* whatsappactivity@2x.png in Resources */,
+				25A132D824223DB600E541AB /* mail.png in Resources */,
+				25A132E224223DB600E541AB /* IR_UserResources.plist in Resources */,
+				25A132DA24223DB600E541AB /* fb.png in Resources */,
+				25A132DB24223DB600E541AB /* .gitkeep in Resources */,
+				25A132E024223DB600E541AB /* whatsappactivity.png in Resources */,
+				25A132E424223DB600E541AB /* .gitkeep in Resources */,
+				25A132E124223DB600E541AB /* WhatsApp.png in Resources */,
+				25A132D724223DB600E541AB /* sms.png in Resources */,
+				25A132D924223DB600E541AB /* share@2x.png in Resources */,
+				25A132DC24223DB600E541AB /* share@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB61ACA35E50C208E837A840AB9B154 /* irFinalTest-dummy.m in Sources */,
-				24A46BE6471C77A5B717C39E4BC09783 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +504,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

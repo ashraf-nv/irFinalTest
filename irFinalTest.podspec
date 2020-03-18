@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'irFinalTest'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'this is my final test lib for IR iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,11 @@ this is my final test lib for IR iOS SDK. and here full description can be provi
 
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.source_files = 'irFinalTest/Classes/**/*'
+  s.source_files = 'irFinalTest/Classes/**/*.h'
+  s.resources = ['irFinalTest/Assets/**/*.png', 'irFinalTest/Classes/IR_UserResources.plist']
+  s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
+  s.vendored_library = 'irFinalTest/Classes/libInvitereferrals_4_3_2.a'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   
   # s.resource_bundles = {
   #   'irFinalTest' => ['irFinalTest/Assets/*.png']
