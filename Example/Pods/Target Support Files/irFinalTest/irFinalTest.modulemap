@@ -1,0 +1,6 @@
+framework module irFinalTest {
+  umbrella header "irFinalTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
